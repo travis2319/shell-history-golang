@@ -1,0 +1,36 @@
+# Git
+.git
+.gitignore
+
+# Go specific
+*.go.work
+*.go.work.sum
+go.mod
+go.sum
+
+# Build artifacts
+*.exe
+*.test
+*.out
+main
+
+# Development files
+README.md
+test.go
+Dockerfile
+compose.yaml
+
+# Dependency directories
+vendor/
+
+# Environment and secrets
+.env
+*.secret
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
